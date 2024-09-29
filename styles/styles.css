@@ -102,8 +102,9 @@ button[name="clear_form"] {
     width: 200px;
     padding: 10px;
 }
+
 .scoreboard_row input.player_name {
-    width:300px;
+    width: 300px;
 }
 
 .header_scoreboard {
@@ -131,5 +132,10 @@ button[name="clear_form"] {
 .match input {
     background-color: #115E20;
     color: white;
+}
+
+#name {
+    border: none;
+    background: #E8E8E8 repeating-linear-gradient(-50deg, #555 0, #555 1px, transparent 1px, transparent 5px);
 }
 
